@@ -44,10 +44,12 @@ function hesapla(x) {
     }
     if (i == 10) {
         alert("YOU WIN. The game is finished. Start again.");
+        reset();
 
     }
     else if (j == 10) {
         alert("YOU LOSE. The game is finished. Start again.");
+        reset();
  
     }
 
